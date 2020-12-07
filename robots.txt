@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: seantfish.github.io/sitemap.xml
