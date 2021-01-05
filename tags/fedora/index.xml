@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 06 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="seantfish.github.io/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Binaries on Silverblue</title>
-      <link>seantfish.github.io/posts/20201206/</link>
+      <link>seantfish.github.io/posts/202012_silverblue/</link>
       <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>seantfish.github.io/posts/20201206/</guid>
+      <guid>seantfish.github.io/posts/202012_silverblue/</guid>
       <description>Recently I started playing around with Fedora Silverblue 33.
 I could not figure out how to install Julia, until I found this article.
 So using the method described here, I was able to install both Julia and Hugo onto my system and incorporate them into my PATH without rpm-ostree.
