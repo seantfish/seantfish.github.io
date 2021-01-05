@@ -1,3 +1,3 @@
 User-agent: *
 Disallow: /
-Sitemap: fishysnotebook.com/sitemap.xml
+Sitemap: seantfish.github.io/sitemap.xml

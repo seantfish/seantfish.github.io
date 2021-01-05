@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Fishy&#39;s Notebook</title>
-    <link>fishysnotebook.com/posts/</link>
+    <link>seantfish.github.io/posts/</link>
     <description>Recent content in Posts on Fishy&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="fishysnotebook.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="seantfish.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Distant socializing</title>
-      <link>fishysnotebook.com/posts/202101_storiesreplacement/</link>
+      <link>seantfish.github.io/posts/202101_storiesreplacement/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>fishysnotebook.com/posts/202101_storiesreplacement/</guid>
+      <guid>seantfish.github.io/posts/202101_storiesreplacement/</guid>
       <description>Disclaimer: This post is more about the day-to-day of social media, not the organizational capabilities it provides. Also, this post does not contain rigorous research as of now.
 Social Media bad The common opinion on the interwebs nowadays seems to be that social media is bad for you. The irony of spreading this message on social media platforms is not lost. I held a version of this position for a while.</description>
     </item>
     
     <item>
       <title>Binaries on Silverblue</title>
-      <link>fishysnotebook.com/posts/202012_silverblue/</link>
+      <link>seantfish.github.io/posts/202012_silverblue/</link>
       <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>fishysnotebook.com/posts/202012_silverblue/</guid>
+      <guid>seantfish.github.io/posts/202012_silverblue/</guid>
       <description>Recently I started playing around with Fedora Silverblue 33.
 I could not figure out how to install Julia, until I found this article.
 So using the method described here, I was able to install both Julia and Hugo onto my system and incorporate them into my PATH without rpm-ostree.

@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fishy&#39;s Notebook</title>
-    <link>fishysnotebook.com/tags/</link>
+    <link>seantfish.github.io/tags/</link>
     <description>Recent content in Tags on Fishy&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="fishysnotebook.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="seantfish.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>opinion</title>
-      <link>fishysnotebook.com/tags/opinion/</link>
+      <link>seantfish.github.io/tags/opinion/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>fishysnotebook.com/tags/opinion/</guid>
+      <guid>seantfish.github.io/tags/opinion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>social media</title>
-      <link>fishysnotebook.com/tags/social-media/</link>
+      <link>seantfish.github.io/tags/social-media/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>fishysnotebook.com/tags/social-media/</guid>
+      <guid>seantfish.github.io/tags/social-media/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fedora</title>
-      <link>fishysnotebook.com/tags/fedora/</link>
+      <link>seantfish.github.io/tags/fedora/</link>
       <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>fishysnotebook.com/tags/fedora/</guid>
+      <guid>seantfish.github.io/tags/fedora/</guid>
       <description></description>
     </item>
     
     <item>
       <title>silverblue</title>
-      <link>fishysnotebook.com/tags/silverblue/</link>
+      <link>seantfish.github.io/tags/silverblue/</link>
       <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>fishysnotebook.com/tags/silverblue/</guid>
+      <guid>seantfish.github.io/tags/silverblue/</guid>
       <description></description>
     </item>
     
