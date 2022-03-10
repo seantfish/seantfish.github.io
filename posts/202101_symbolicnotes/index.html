@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name=" robots" content="noindex, nofollow">
+<title>Notes: Symbolic Chat Systems | Fishy&#39;s Notebook</title>
+
+<meta name="keywords" content="notes, language" />
+<meta name="description" content="Notes on past symbolic chat systems.">
+<meta name="author" content="Sean Fish">
+<link rel="canonical" href="https://fishysnotebook.com/posts/202101_symbolicnotes/" />
+<link href="https://fishysnotebook.com/assets/css/stylesheet.min.9b41f1fca0ecd98165aaa98ef85e6717a95f6621f6190ac064cd8c42a8334c28.css" integrity="sha256-m0Hx/KDs2YFlqqmO&#43;F5nF6lfZiH2GQrAZM2MQqgzTCg=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://fishysnotebook.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://fishysnotebook.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://fishysnotebook.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://fishysnotebook.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://fishysnotebook.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.79.0" />
+
+
+
+
+</head>
+
+<body class="">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://fishysnotebook.com/" accesskey="h">Fishy&#39;s Notebook</a>
+            <span class="logo-switches">
+                <span class="theme-toggle">
+                    <a id="theme-toggle" accesskey="t">
+                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </a>
+                </span>
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()"></ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      Notes: Symbolic Chat Systems
+    </h1>
+  </header> 
+
+  <div class="post-content">
+<h1 id="symbolic-methods">Symbolic methods<a hidden class="anchor" aria-hidden="true" href="#symbolic-methods">#</a></h1>
+<p>Personally, I think GOFAI gets an undue amount of neglect and hate these days.
+Video games use them, and they can be fairly effective at simulating reasonable
+intelligent behavior. Not to say there isn&rsquo;t any use with recent techniques, but
+symbolic systems are just more easily deciphered. Well, at least when they don&rsquo;t
+explode in complexity, like FSMs do.</p>
+<p>Additionally, humans do use symbols, is it so wrong to think that we can use
+neural and symbolic methods together? Neuro-symbolic if you will?</p>
+<p>At the end of the day, I don&rsquo;t want a machine pretending to be human.
+A degree of relatability will suffice.</p>
+<h2 id="current-goals">Current goals<a hidden class="anchor" aria-hidden="true" href="#current-goals">#</a></h2>
+<p>First, implement a rule-based chatbot script interpreter in Julia.
+This allows for extending software with ML and NN techniques without the
+2 language problem.
+Wait actually look into ChatScript. AIML seems needlessly complicated in some
+areas and might be inferior.
+Possibly extend it later.</p>
+<p>Might try some case based reasoning later if I can think of a use case.
+I kind of want to build a game-playing program that integrates with this.</p>
+<p>Far out:</p>
+<ul>
+<li>Explainable AI methods</li>
+<li>Causal inference stuff but I need to learn more stats first</li>
+<li>Using these conversations to bootstrap a ML-based system</li>
+</ul>
+<p>Here&rsquo;s a random thought: The Turing Test, but the AI is guessing if you&rsquo;re
+really who you say you are.</p>
+<h2 id="infocom-parser">Infocom parser<a hidden class="anchor" aria-hidden="true" href="#infocom-parser">#</a></h2>
+<p><a href="http://ifwiki.org/index.php/Infocom-type_parser">http://ifwiki.org/index.php/Infocom-type_parser</a></p>
+<p><a href="http://thomaswc.com/serious/ifzorkcould.html">http://thomaswc.com/serious/ifzorkcould.html</a></p>
+<h2 id="chatscript">ChatScript<a hidden class="anchor" aria-hidden="true" href="#chatscript">#</a></h2>
+<p><a href="https://github.com/ChatScript/ChatScript">https://github.com/ChatScript/ChatScript</a></p>
+<h2 id="aiml-systems---pandorabots-2011">AIML Systems - Pandorabots (2011)<a hidden class="anchor" aria-hidden="true" href="#aiml-systems---pandorabots-2011">#</a></h2>
+<p>Paper describing AIML here: <a href="https://arxiv.org/pdf/1307.3091.pdf">https://arxiv.org/pdf/1307.3091.pdf</a></p>
+<p>Intro</p>
+<ul>
+<li>based on pattern recognition / matching techniques</li>
+<li>relies on a stimulus-response pattern</li>
+<li>ELIZA chatbot - first generation chatbot</li>
+<li>JULIA chatbot (Mauldin 1994) - no relation to language - 2nd gen chatbot</li>
+<li>ALICE chatbot - forerunner of 3rd gen chatbots</li>
+</ul>
+<p>Syntax</p>
+<ul>
+<li>AIML is an interpreted language</li>
+<li>Important tags: category, pattern, template
+<ul>
+<li>category: unit of knowledge/dialogue in the knowledge base</li>
+<li>pattern: possible user input</li>
+<li>template: response format</li>
+</ul>
+</li>
+<li>&ldquo;*&rdquo; and &ldquo;<em>&rdquo; represent wildcards for replacing strings, with &ldquo;</em>&rdquo; taking higher
+priority</li>
+<li>aiml tag sandwiches the file</li>
+<li>category tag consists of user input, response, and optional context</li>
+<li>pattern tag consists of possible user input
+<ul>
+<li>I wonder if Kaizen rearranges in preprocessing to fit patterns</li>
+</ul>
+</li>
+<li>template tag consists of possible answers, can save data,
+activate other programs, it does the heavy lifting</li>
+<li>star index tag represents a text fragment in the pattern</li>
+<li>srai tag does symbolic reduction, allowing for targeting/redirecting
+different pattern models for one template, allowing for efficiency
+<ul>
+<li>makes you wonder how search engines parse user input</li>
+</ul>
+</li>
+<li>srai tag allows for synonyms as well</li>
+<li>random and li tags allow for random selection of responses</li>
+<li>set and get allows for variables</li>
+<li>that tag prompts analysis of last response by chatbot to contextualize user
+response to chatbot</li>
+<li>topic tag defines a narrow scope for conversation, reducing pattern search</li>
+<li>think tag for behind the scenes data processing</li>
+<li>condition tag for when choosing from multiple possible answers, like case in
+other languages</li>
+<li>bot tag to define bot properties</li>
+</ul>
+<p>Interpreter</p>
+<ol>
+<li>capture source code line</li>
+<li>check and analyze the line syntactically and semantically</li>
+<li>if no errors, translate to binary</li>
+</ol>
+<p>ProgramD is an open source AIML program: <a href="https://github.com/noelbush-xx/programd">https://github.com/noelbush-xx/programd</a></p>
+<p>SOTA in Turing Test? Completely symbolic.</p>
+<p>Mitsuku</p>
+<h2 id="kaizen-85-event0---ocelot-society-2016">Kaizen-85 (Event[0]) - Ocelot Society (2016)<a hidden class="anchor" aria-hidden="true" href="#kaizen-85-event0---ocelot-society-2016">#</a></h2>
+<p>I played this game. It was interesting enough.
+The chatbot impressed me for sure.</p>
+<p>Notes from Unity Connect article (RIP)
+Four input parameters</p>
+<ol>
+<li>Player input: Input is analyzed for meaning - dictionary of semantic tags
+contain associated words, i.e. &ldquo;glass,&rdquo; &ldquo;plate,&rdquo; &ldquo;fork&rdquo; -&gt; &ldquo;tableware&rdquo;</li>
+<li>Kaizen emotional state: 9 states of emotion (matrix of Anger/Stress/Calm x
+Love/Indifferent/Hate) that define gameplay based on Kaizen&rsquo;s actions</li>
+<li>Current event: Conversation subject at hand based on location and situation,
+vocabulary/dictionary is adjusted based on this</li>
+<li>Short-term and Long-term memory: Recent semantic tags in STM (to understand
+&ldquo;it&rdquo; and other referential words) while identifying information and gameplay
+events in LTM</li>
+</ol>
+<p>Dialog is made of bits and pieces of phrases, which are combined and randomized
+to allow for variety in responses</p>
+<p>One testing methodology involved a playtester thinking they were intracting
+with Kaizen, while a dev was actually interacting by using a list of rules and
+phrases that were being considered. This is like a Turing test.</p>
+<p>A GDC talk I plan to listen to later: <a href="https://youtu.be/6LCQg80Yet0">https://youtu.be/6LCQg80Yet0</a></p>
+<h2 id="eliza---joseph-weizenbaum-1966">ELIZA - Joseph Weizenbaum (1966)<a hidden class="anchor" aria-hidden="true" href="#eliza---joseph-weizenbaum-1966">#</a></h2>
+<p>Problems considered by an ELIZA system</p>
+<ol>
+<li>Identify important keywords in the input</li>
+<li>Identify minimal context for keywords (semantic parsing?)</li>
+<li>Apply transformation rule to input</li>
+<li>Do something when input does not have keywords</li>
+<li>Edit and extend the script</li>
+</ol>
+<p>The ELIZA script</p>
+<ul>
+<li>contains a set of list structures with format of keyword, decomposition rules,
+and reassembly rules, could also be represented by a 3D matrix</li>
+</ul>
+<h2 id="blah---jl-weiner-1980">BLAH - J.L. Weiner (1980)<a hidden class="anchor" aria-hidden="true" href="#blah---jl-weiner-1980">#</a></h2>
+<p>Explainable AI</p>
+<ul>
+<li>BLAH is comprised of a knowledge base, feeding a reasoning component, which
+works in tandem with an explanation generator</li>
+<li>Reasoning component written in AMORD, which uses production rules consisting
+of a pattern and a body, where body is run when currently believed assertion
+matches pattern</li>
+<li>Knowledge base is segmented between system and user view, each containing
+respective known assertions and rules</li>
+<li>Also segmented into partitions based on subject, allowing substitution of
+nouns if they are effectively synonymous</li>
+<li>Also segmented into worlds with different initial premises,
+allowing hypothetical reasoning</li>
+<li>Explanations use logical graphs</li>
+</ul>
+<p>AMORD is a deductive procedure system.</p>
+
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://fishysnotebook.com/tags/notes">notes</a></li>
+      <li><a href="https://fishysnotebook.com/tags/language">language</a></li>
+    </ul>
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2022 <a href="https://fishysnotebook.com/">Fishy&#39;s Notebook</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<button class="top-link" id="top-link" type="button" aria-label="go to top" title="Go to Top" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+        <path d="M12 6H0l6-6z" /></svg>
+</button>
+
+
+
+<script defer src="https://fishysnotebook.com/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+    mybutton.onclick = function () {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        window.location.hash = ''
+    }
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+
+</body>
+
+</html>

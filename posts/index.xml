@@ -46,6 +46,16 @@ The first project is the Nova Motor, a modified Newport Vessels trolling motor w
     </item>
     
     <item>
+      <title>Notes: Symbolic Chat Systems</title>
+      <link>https://fishysnotebook.com/posts/202101_symbolicnotes/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/202101_symbolicnotes/</guid>
+      <description>Symbolic methods Personally, I think GOFAI gets an undue amount of neglect and hate these days. Video games use them, and they can be fairly effective at simulating reasonable intelligent behavior. Not to say there isn&amp;rsquo;t any use with recent techniques, but symbolic systems are just more easily deciphered. Well, at least when they don&amp;rsquo;t explode in complexity, like FSMs do.
+Additionally, humans do use symbols, is it so wrong to think that we can use neural and symbolic methods together?</description>
+    </item>
+    
+    <item>
       <title>ROS on Fedora Silverblue</title>
       <link>https://fishysnotebook.com/posts/202012_rospod/</link>
       <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
@@ -81,7 +91,7 @@ It took a long time for me to run into this on Google, so I&amp;rsquo;m posting 
     <item>
       <title>Drone Controller - 2019 Aerohacks</title>
       <link>https://fishysnotebook.com/posts/201902_aerohacks/</link>
-      <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://fishysnotebook.com/posts/201902_aerohacks/</guid>
       <description>NOTE: This write-up is from 2022.
