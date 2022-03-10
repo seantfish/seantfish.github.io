@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fishysnotebook.com/tags/arduino/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/posts/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/tags/robotics/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/posts/202203_newmrgprojects/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/tags/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fishysnotebook.com/categories/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url>
@@ -23,21 +53,6 @@
   </url>
   
   <url>
-    <loc>https://fishysnotebook.com/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fishysnotebook.com/posts/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fishysnotebook.com/tags/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fishysnotebook.com/categories/tutorials/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url>
@@ -50,6 +65,16 @@
   <url>
     <loc>https://fishysnotebook.com/tags/wsl2/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/posts/202106_auxiliaryasv/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/posts/202102_summaryquadrature/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -80,6 +105,16 @@
   <url>
     <loc>https://fishysnotebook.com/posts/202008_rosguidockerwsl/</loc>
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/tags/drone/</loc>
+    <lastmod>2010-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/posts/201902_aerohacks/</loc>
+    <lastmod>2010-02-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>

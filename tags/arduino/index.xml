@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fishy&#39;s Notebook</title>
-    <link>https://fishysnotebook.com/</link>
-    <description>Recent content on Fishy&#39;s Notebook</description>
+    <title>arduino on Fishy&#39;s Notebook</title>
+    <link>https://fishysnotebook.com/tags/arduino/</link>
+    <description>Recent content in arduino on Fishy&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fishysnotebook.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fishysnotebook.com/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring 2022 Projects</title>
       <link>https://fishysnotebook.com/posts/202203_newmrgprojects/</link>
@@ -15,15 +15,6 @@
       <guid>https://fishysnotebook.com/posts/202203_newmrgprojects/</guid>
       <description>Marine Robotics Group At the moment, I am leading two electrical projects in the Marine Robotics Group.
 The first project is the Nova Motor, a modified Newport Vessels trolling motor which is being controlled with a PWM module that interfaces with a Pi Pico for use with micro-ROS. The second project is the ORCS Comms system, an OrangeRX-based communication system with a failsafe E-stop. I am looking forward to leveraging skills I gained in PCB design and electrical work while working on a prototype DAQ system for the Yellow Jacket Space Program.</description>
-    </item>
-    
-    <item>
-      <title>Crosspost: Towards Easier ROS Setup &amp; Collaboration</title>
-      <link>https://fishysnotebook.com/posts/202107_towardseasiercolab/</link>
-      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://fishysnotebook.com/posts/202107_towardseasiercolab/</guid>
-      <description>Check out my write-up over here.</description>
     </item>
     
     <item>
@@ -46,39 +37,6 @@ The first project is the Nova Motor, a modified Newport Vessels trolling motor w
     </item>
     
     <item>
-      <title>ROS on Fedora Silverblue</title>
-      <link>https://fishysnotebook.com/posts/202012_rospod/</link>
-      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fishysnotebook.com/posts/202012_rospod/</guid>
-      <description>I&amp;rsquo;ve run Gazebo on WSL2 before, albeit sluggishly. One difference between Docker and Podman is apparently the way networks are handled.
-podman run -it -e DISPLAY --rm --net=host osrf/ros:melodic-desktop-full bash
-podman run --rm -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev/dri:/dev/dri --security-opt=label=type:container_runtime_t -e DISPLAY localhost/xonotic-container xonotic-glx
-podman run --rm -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev/dri:/dev/dri --security-opt=label=type:container_runtime_t -e DISPLAY osrf/ros:melodic-desktop-full bash</description>
-    </item>
-    
-    <item>
-      <title>Binaries on Silverblue</title>
-      <link>https://fishysnotebook.com/posts/202012_silverblue/</link>
-      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fishysnotebook.com/posts/202012_silverblue/</guid>
-      <description>Recently I started playing around with Fedora Silverblue 33.
-I could not figure out how to install Julia, until I found this article.
-So using the method described here, I was able to install both Julia and Hugo onto my system and incorporate them into my PATH without rpm-ostree.
-It took a long time for me to run into this on Google, so I&amp;rsquo;m posting it here too, just in case.</description>
-    </item>
-    
-    <item>
-      <title>Crosspost: Running ROS with GUI in Docker using WSL2</title>
-      <link>https://fishysnotebook.com/posts/202008_rosguidockerwsl/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fishysnotebook.com/posts/202008_rosguidockerwsl/</guid>
-      <description>Check out my write-up over here.</description>
-    </item>
-    
-    <item>
       <title>Drone Controller - 2019 Aerohacks</title>
       <link>https://fishysnotebook.com/posts/201902_aerohacks/</link>
       <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
@@ -87,24 +45,6 @@ It took a long time for me to run into this on Google, so I&amp;rsquo;m posting 
       <description>NOTE: This write-up is from 2022.
 Aerohacks 2019 was my first hardware hackathon. It was so much fun. My friends and I built a single-handed drone controller from spare parts. I learned how to prototype with an Arduino. We hooked up the Arduino to a simulation in Processing to demonstrate the control scheme of the controller. Here&amp;rsquo;s a photo of our prototype:
 Here&amp;rsquo;s some code from that hackathon which perhaps I&amp;rsquo;ll pick up again one day.</description>
-    </item>
-    
-    <item>
-      <title>Archive</title>
-      <link>https://fishysnotebook.com/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fishysnotebook.com/archives/</guid>
-      <description>archives</description>
-    </item>
-    
-    <item>
-      <title>Search</title>
-      <link>https://fishysnotebook.com/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fishysnotebook.com/search/</guid>
-      <description>search</description>
     </item>
     
   </channel>

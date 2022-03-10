@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Fishy&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://fishysnotebook.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fishysnotebook.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring 2022 Projects</title>
+      <link>https://fishysnotebook.com/posts/202203_newmrgprojects/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/202203_newmrgprojects/</guid>
+      <description>Marine Robotics Group At the moment, I am leading two electrical projects in the Marine Robotics Group.
+The first project is the Nova Motor, a modified Newport Vessels trolling motor which is being controlled with a PWM module that interfaces with a Pi Pico for use with micro-ROS. The second project is the ORCS Comms system, an OrangeRX-based communication system with a failsafe E-stop. I am looking forward to leveraging skills I gained in PCB design and electrical work while working on a prototype DAQ system for the Yellow Jacket Space Program.</description>
+    </item>
+    
     <item>
       <title>Crosspost: Towards Easier ROS Setup &amp; Collaboration</title>
       <link>https://fishysnotebook.com/posts/202107_towardseasiercolab/</link>
@@ -14,6 +24,25 @@
       
       <guid>https://fishysnotebook.com/posts/202107_towardseasiercolab/</guid>
       <description>Check out my write-up over here.</description>
+    </item>
+    
+    <item>
+      <title>2021 RoboBoat Auxiliary Test Vehicle</title>
+      <link>https://fishysnotebook.com/posts/202106_auxiliaryasv/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/202106_auxiliaryasv/</guid>
+      <description>For the RoboBoat 2021 competition, our team was essentially completely virtual. However, we tried our best to make the most of it. During this project, I experimented with two things:
+ Liquid rubber as a waterproof coating for a foamboard hull Bilge pump motors  The foamboard hull was rather limited in displacement, but it got the job done. The liquid rubber held up for the most part, but it did not adhere well to packing tape and would peel easily on the sharp folded corners of the foamboard hull.</description>
+    </item>
+    
+    <item>
+      <title>2012 Hasbro R2-D2 Dome Controller</title>
+      <link>https://fishysnotebook.com/posts/202102_summaryquadrature/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/202102_summaryquadrature/</guid>
+      <description>In late high school, I decided to disassemble my old toy R2-D2 with the intent of making an even better robot. That robot is still a work in progress, and I&amp;rsquo;ve learned a lot since then. In the meantime, I have at least figured out how to control the planetary gear system that allows the dome to rotate. It utilizes a quadrature encoder incorporating two pairs of infrared blasters and sensors.</description>
     </item>
     
     <item>
@@ -47,6 +76,17 @@ It took a long time for me to run into this on Google, so I&amp;rsquo;m posting 
       
       <guid>https://fishysnotebook.com/posts/202008_rosguidockerwsl/</guid>
       <description>Check out my write-up over here.</description>
+    </item>
+    
+    <item>
+      <title>Drone Controller - 2019 Aerohacks</title>
+      <link>https://fishysnotebook.com/posts/201902_aerohacks/</link>
+      <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/201902_aerohacks/</guid>
+      <description>NOTE: This write-up is from 2022.
+Aerohacks 2019 was my first hardware hackathon. It was so much fun. My friends and I built a single-handed drone controller from spare parts. I learned how to prototype with an Arduino. We hooked up the Arduino to a simulation in Processing to demonstrate the control scheme of the controller. Here&amp;rsquo;s a photo of our prototype:
+Here&amp;rsquo;s some code from that hackathon which perhaps I&amp;rsquo;ll pick up again one day.</description>
     </item>
     
   </channel>
