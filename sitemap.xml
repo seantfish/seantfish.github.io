@@ -3,33 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://fishysnotebook.com/posts/202101_storiesreplacement/</loc>
-    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+    <loc>https://fishysnotebook.com/categories/</loc>
+    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/posts/202107_towardseasiercolab/</loc>
+    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/categories/crossposts/</loc>
+    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/tags/docker/</loc>
+    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://fishysnotebook.com/</loc>
-    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fishysnotebook.com/tags/opinion/</loc>
-    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://fishysnotebook.com/posts/</loc>
-    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fishysnotebook.com/tags/social-media/</loc>
-    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://fishysnotebook.com/tags/</loc>
-    <lastmod>2021-01-05T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/categories/tutorials/</loc>
+    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/tags/vscode/</loc>
+    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/tags/wsl2/</loc>
+    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/tags/fedora/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/tags/ros/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/posts/202012_rospod/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fishysnotebook.com/tags/silverblue/</loc>
+    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,17 +78,12 @@
   </url>
   
   <url>
-    <loc>https://fishysnotebook.com/tags/fedora/</loc>
-    <lastmod>2020-12-06T00:00:00+00:00</lastmod>
+    <loc>https://fishysnotebook.com/posts/202008_rosguidockerwsl/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fishysnotebook.com/tags/silverblue/</loc>
-    <lastmod>2020-12-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fishysnotebook.com/categories/</loc>
+    <loc>https://fishysnotebook.com/archives/</loc>
   </url>
   
   <url>

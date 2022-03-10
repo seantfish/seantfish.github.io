@@ -6,7 +6,19 @@
     <description>Recent content in silverblue on Fishy&#39;s Notebook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fishysnotebook.com/tags/silverblue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fishysnotebook.com/tags/silverblue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ROS on Fedora Silverblue</title>
+      <link>https://fishysnotebook.com/posts/202012_rospod/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/202012_rospod/</guid>
+      <description>I&amp;rsquo;ve run Gazebo on WSL2 before, albeit sluggishly. One difference between Docker and Podman is apparently the way networks are handled.
+podman run -it -e DISPLAY --rm --net=host osrf/ros:melodic-desktop-full bash
+podman run --rm -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev/dri:/dev/dri --security-opt=label=type:container_runtime_t -e DISPLAY localhost/xonotic-container xonotic-glx
+podman run --rm -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev/dri:/dev/dri --security-opt=label=type:container_runtime_t -e DISPLAY osrf/ros:melodic-desktop-full bash</description>
+    </item>
+    
     <item>
       <title>Binaries on Silverblue</title>
       <link>https://fishysnotebook.com/posts/202012_silverblue/</link>
@@ -17,6 +29,15 @@
 I could not figure out how to install Julia, until I found this article.
 So using the method described here, I was able to install both Julia and Hugo onto my system and incorporate them into my PATH without rpm-ostree.
 It took a long time for me to run into this on Google, so I&amp;rsquo;m posting it here too, just in case.</description>
+    </item>
+    
+    <item>
+      <title>Crosspost: Running ROS with GUI in Docker using WSL2</title>
+      <link>https://fishysnotebook.com/posts/202008_rosguidockerwsl/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/202008_rosguidockerwsl/</guid>
+      <description>Check out my write-up over here.</description>
     </item>
     
   </channel>
