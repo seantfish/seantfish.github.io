@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Notes: Explanation Types and Strategies | Fishy&#39;s Notebook</title>
+<meta name="keywords" content="xai" />
+<meta name="description" content="Considering types of explanations and the methods that may be most relevant to them.">
+<meta name="author" content="Sean Fish">
+<link rel="canonical" href="https://fishysnotebook.com/posts/notes/ai/xai_exptypes/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.48a18943c2fc15c38a372b8dde1f5e5dc0bc64fa6cb90f5a817d2f8c76b7f3ae.css" integrity="sha256-SKGJQ8L8FcOKNyuN3h9eXcC8ZPpsuQ9agX0vjHa3864=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.4dcb3c4f38462f66c6b6137227726f5543cb934cca9788f041c087e374491df2.js" integrity="sha256-Tcs8TzhGL2bGthNyJ3JvVUPLk0zKl4jwQcCH43RJHfI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://fishysnotebook.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://fishysnotebook.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://fishysnotebook.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://fishysnotebook.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://fishysnotebook.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Notes: Explanation Types and Strategies" />
+<meta property="og:description" content="Considering types of explanations and the methods that may be most relevant to them." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fishysnotebook.com/posts/notes/ai/xai_exptypes/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-03-16T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-03-16T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Notes: Explanation Types and Strategies"/>
+<meta name="twitter:description" content="Considering types of explanations and the methods that may be most relevant to them."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://fishysnotebook.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Notes: Explanation Types and Strategies",
+      "item": "https://fishysnotebook.com/posts/notes/ai/xai_exptypes/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Notes: Explanation Types and Strategies",
+  "name": "Notes: Explanation Types and Strategies",
+  "description": "Considering types of explanations and the methods that may be most relevant to them.",
+  "keywords": [
+    "xai"
+  ],
+  "articleBody": "Explanation Types According to Tania Lombrozo in Explanation and Abductive Inference, there are three main types of explanation: mechanistic, functional / teleological, and formal.\nLombrozo uses tires to demonstrate the three explanatory appeals. I will adapt this demonstration, but with a wooden wheel made from a solid panel.\nConsider the following situation: Alice has a large crate of apples in Atlanta, and wants to deliver this crate to Bob in Barnesville. Alice has a cart with wooden wheels to help her with this task. Now, why are the wheels round?\nMechanistic Explanations If one were to take a mechanistic approach to explaining why the wheels are round, they would tell you about the parts and processes that contributed to the wheels’ roundness. The mechanistic explainer would perhaps say, “A block of wood was rotated and sanded down by this abrasive block. The material was stripped evenly from the center until it was perfectly round.” This is a great answer if you want to know the exact causal mechanism for the wheels becoming round. This could inform you about what events need to occur for a block of wood to become a wheel.\nConsidering how mechanistic explanations appeal to causal mechanisms, it may be appropriate to apply techniques from the field of causal inference when creating XAI systems of this nature. Mechanistic explanations could be useful in situations where systems are attempting to explain a causal model to a user. Planning techniques incorporating models of the users’ mental models could be applied to reconcile the models of the system and the user.\nFunctional / Teleological Explanations The functional, or teleological, explanation for the wheels’ roundness would appeal to functions and goals. In this case, the wheels are round to enable rolling. Depending on your desired scope, you could also argue that the wheels are actually round to enable Alice to roll the cart to get the crate of apples to Bob.\nThis type of explanation appeals to planning. An entity has intended for the wheel to contribute towards a function, purpose, or goal. If your robot butler decides to get you a drink, and you ask why, the robot could refer to a planner system to determine the goal it was attempting to fulfill.\nFormal Explanations The final type of explanation appeals to categorical characteristics. Why is the wheel round? The wheel is round because it has edges which are roughly a circle, where any random point on that circle is about equally distant from the center.\nThis type of explanation seems to be covered to some extent by existing techniques such as attention heatmaps in computer vision. You may wonder why a round-object classifier has identified a wheel as a round object, and with interpretability techniques, you may find that attention is given to the circular edges of the wheel in the picture.\n",
+  "wordCount" : "473",
+  "inLanguage": "en",
+  "datePublished": "2022-03-16T00:00:00Z",
+  "dateModified": "2022-03-16T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Sean Fish"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://fishysnotebook.com/posts/notes/ai/xai_exptypes/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Fishy's Notebook",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://fishysnotebook.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://fishysnotebook.com/" accesskey="h" title="Fishy&#39;s Notebook (Alt + H)">Fishy&#39;s Notebook</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://fishysnotebook.com/categories" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://fishysnotebook.com/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Notes: Explanation Types and Strategies
+    </h1>
+    <div class="post-description">
+      Considering types of explanations and the methods that may be most relevant to them.
+    </div>
+  </header> 
+  <div class="post-content"><h2 id="explanation-types">Explanation Types<a hidden class="anchor" aria-hidden="true" href="#explanation-types">#</a></h2>
+<p>According to Tania Lombrozo in <a href="https://cognition.princeton.edu/sites/default/files/cognition/files/explanation_abductive_inference.pdf">Explanation and Abductive Inference</a>, there are three main types of explanation: mechanistic, functional / teleological, and formal.</p>
+<p>Lombrozo uses tires to demonstrate the three explanatory appeals. I will adapt this demonstration, but with a wooden wheel made from a solid panel.</p>
+<p>Consider the following situation: Alice has a large crate of apples in Atlanta, and wants to deliver this crate to Bob in Barnesville. Alice has a cart with wooden wheels to help her with this task. Now, why are the wheels round?</p>
+<h3 id="mechanistic-explanations">Mechanistic Explanations<a hidden class="anchor" aria-hidden="true" href="#mechanistic-explanations">#</a></h3>
+<p>If one were to take a mechanistic approach to explaining why the wheels are round, they would tell you about the parts and processes that contributed to the wheels&rsquo; roundness. The mechanistic explainer would perhaps say, &ldquo;A block of wood was rotated and sanded down by this abrasive block. The material was stripped evenly from the center until it was perfectly round.&rdquo;
+This is a great answer if you want to know the exact causal mechanism for the wheels becoming round. This could inform you about what events need to occur for a block of wood to become a wheel.</p>
+<p>Considering how mechanistic explanations appeal to causal mechanisms, it may be appropriate to apply techniques from the field of causal inference when creating XAI systems of this nature. Mechanistic explanations could be useful in situations where systems are attempting to explain a causal model to a user. Planning techniques incorporating models of the users&rsquo; mental models could be applied to <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8673193">reconcile the models of the system and the user</a>.</p>
+<h3 id="functional--teleological-explanations">Functional / Teleological Explanations<a hidden class="anchor" aria-hidden="true" href="#functional--teleological-explanations">#</a></h3>
+<p>The functional, or teleological, explanation for the wheels&rsquo; roundness would appeal to functions and goals. In this case, the wheels are round to enable rolling. Depending on your desired scope, you could also argue that the wheels are actually round to enable Alice to roll the cart to get the crate of apples to Bob.</p>
+<p>This type of explanation appeals to planning. An entity has intended for the wheel to contribute towards a function, purpose, or goal. If your robot butler decides to get you a drink, and you ask why, the robot could refer to a planner system to determine the goal it was attempting to fulfill.</p>
+<h3 id="formal-explanations">Formal Explanations<a hidden class="anchor" aria-hidden="true" href="#formal-explanations">#</a></h3>
+<p>The final type of explanation appeals to categorical characteristics. Why is the wheel round? The wheel is round because it has edges which are roughly a circle, where any random point on that circle is about equally distant from the center.</p>
+<p>This type of explanation seems to be covered to some extent by existing techniques such as attention heatmaps in computer vision. You may wonder why a round-object classifier has identified a wheel as a round object, and with interpretability techniques, you may find that attention is given to the circular edges of the wheel in the picture.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://fishysnotebook.com/tags/xai/">xai</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://fishysnotebook.com/">Fishy&#39;s Notebook</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

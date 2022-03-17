@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>drone on Fishy&#39;s Notebook</title>
     <link>https://fishysnotebook.com/tags/drone/</link>
@@ -9,13 +9,11 @@
     <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://fishysnotebook.com/tags/drone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Drone Controller - 2019 Aerohacks</title>
-      <link>https://fishysnotebook.com/posts/201902_aerohacks/</link>
+      <link>https://fishysnotebook.com/posts/projects/201902_aerohacks/</link>
       <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fishysnotebook.com/posts/201902_aerohacks/</guid>
-      <description>NOTE: This write-up is from 2022.
-Aerohacks 2019 was my first hardware hackathon. It was so much fun. My friends and I built a single-handed drone controller from spare parts. I learned how to prototype with an Arduino. We hooked up the Arduino to a simulation in Processing to demonstrate the control scheme of the controller. Here&amp;rsquo;s a photo of our prototype:
-Here&amp;rsquo;s some code from that hackathon which perhaps I&amp;rsquo;ll pick up again one day.</description>
+      <guid>https://fishysnotebook.com/posts/projects/201902_aerohacks/</guid>
+      <description>A retrospective view of Aerohacks 2019 (from 2022).</description>
     </item>
     
   </channel>

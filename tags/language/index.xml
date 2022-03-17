@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>language on Fishy&#39;s Notebook</title>
     <link>https://fishysnotebook.com/tags/language/</link>
@@ -9,12 +9,11 @@
     <lastBuildDate>Fri, 29 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://fishysnotebook.com/tags/language/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes: Symbolic Chat Systems</title>
-      <link>https://fishysnotebook.com/posts/202101_symbolicnotes/</link>
+      <link>https://fishysnotebook.com/posts/notes/ai/symbolicchatbots/</link>
       <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://fishysnotebook.com/posts/202101_symbolicnotes/</guid>
-      <description>Symbolic methods Personally, I think GOFAI gets an undue amount of neglect and hate these days. Video games use them, and they can be fairly effective at simulating reasonable intelligent behavior. Not to say there isn&amp;rsquo;t any use with recent techniques, but symbolic systems are just more easily deciphered. Well, at least when they don&amp;rsquo;t explode in complexity, like FSMs do.
-Additionally, humans do use symbols, is it so wrong to think that we can use neural and symbolic methods together?</description>
+      <guid>https://fishysnotebook.com/posts/notes/ai/symbolicchatbots/</guid>
+      <description>Notes on past symbolic chat systems.</description>
     </item>
     
   </channel>
