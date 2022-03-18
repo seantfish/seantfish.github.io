@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Fishy&#39;s Notebook</title>
+    <link>https://fishysnotebook.com/categories/projects/</link>
+    <description>Recent content in Projects on Fishy&#39;s Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fishysnotebook.com/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring 2022 Projects</title>
+      <link>https://fishysnotebook.com/posts/projects/202203_newmrgprojects/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/projects/202203_newmrgprojects/</guid>
+      <description>Some new projects I&amp;#39;ve been working on.</description>
+    </item>
+    
+    <item>
+      <title>2021 RoboBoat Auxiliary Test Vehicle</title>
+      <link>https://fishysnotebook.com/posts/projects/202106_auxiliaryasv/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/projects/202106_auxiliaryasv/</guid>
+      <description>A brief introduction to a small Autonomous Surface Vehicle.</description>
+    </item>
+    
+    <item>
+      <title>2012 Hasbro R2-D2 Dome Controller</title>
+      <link>https://fishysnotebook.com/posts/projects/202102_summaryquadrature/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/projects/202102_summaryquadrature/</guid>
+      <description>An Arduino sketch for driving the dome gear system for a 2012 Hasbro R2-D2.</description>
+    </item>
+    
+    <item>
+      <title>Drone Controller - 2019 Aerohacks</title>
+      <link>https://fishysnotebook.com/posts/projects/201902_aerohacks/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/projects/201902_aerohacks/</guid>
+      <description>A retrospective view of Aerohacks 2019 (from 2022).</description>
+    </item>
+    
+  </channel>
+</rss>

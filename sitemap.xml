@@ -26,6 +26,9 @@
     <loc>https://fishysnotebook.com/tags/arduino/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://fishysnotebook.com/categories/projects/</loc>
+    <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://fishysnotebook.com/tags/robotics/</loc>
     <lastmod>2022-03-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -35,13 +38,10 @@
     <loc>https://fishysnotebook.com/posts/projects/202107_towardseasiercolab/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fishysnotebook.com/categories/crossposts/</loc>
-    <lastmod>2021-07-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://fishysnotebook.com/tags/docker/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fishysnotebook.com/categories/tutorials/</loc>
+    <loc>https://fishysnotebook.com/categories/guides/</loc>
     <lastmod>2021-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fishysnotebook.com/tags/vscode/</loc>
@@ -88,6 +88,8 @@
   </url><url>
     <loc>https://fishysnotebook.com/posts/projects/201902_aerohacks/</loc>
     <lastmod>2019-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://fishysnotebook.com/about/</loc>
   </url><url>
     <loc>https://fishysnotebook.com/archives/</loc>
   </url><url>

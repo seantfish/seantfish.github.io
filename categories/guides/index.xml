@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Guides on Fishy&#39;s Notebook</title>
+    <link>https://fishysnotebook.com/categories/guides/</link>
+    <description>Recent content in Guides on Fishy&#39;s Notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://fishysnotebook.com/categories/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crosspost: Towards Easier ROS Setup &amp; Collaboration</title>
+      <link>https://fishysnotebook.com/posts/projects/202107_towardseasiercolab/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/projects/202107_towardseasiercolab/</guid>
+      <description>A write-up tutorial I made for the Marine Robotics Group.</description>
+    </item>
+    
+    <item>
+      <title>ROS on Fedora Silverblue</title>
+      <link>https://fishysnotebook.com/posts/projects/202012_rospod/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/projects/202012_rospod/</guid>
+      <description>An adventure with Podman...</description>
+    </item>
+    
+    <item>
+      <title>Binaries on Silverblue</title>
+      <link>https://fishysnotebook.com/posts/projects/202012_silverblue/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/projects/202012_silverblue/</guid>
+      <description>How I installed portable binaries on Fedora Silverblue.</description>
+    </item>
+    
+    <item>
+      <title>Crosspost: Running ROS with GUI in Docker using WSL2</title>
+      <link>https://fishysnotebook.com/posts/projects/202008_rosguidockerwsl/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fishysnotebook.com/posts/projects/202008_rosguidockerwsl/</guid>
+      <description>A write-up tutorial I made for the Marine Robotics Group.</description>
+    </item>
+    
+  </channel>
+</rss>
